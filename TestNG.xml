@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet Store API Test Suite">
+    <listeners>
+        <listener class-name="common.ExtentTestNGListener"/>
+    </listeners>
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.pet.api.test.PetStoreAPITest"/>
+            <class name="com.order.api.test.PetStoreOrderAPITest"/>
+            <!-- Add more test classes here if needed -->
+        </classes>
+    </test>
+</suite>
