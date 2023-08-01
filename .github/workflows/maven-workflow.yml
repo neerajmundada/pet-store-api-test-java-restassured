@@ -24,5 +24,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         if: success() || failure()
         with:
-          name: test-output
-          path: ExtentReport.html
+          name: test-result
+          path: test-output/ExtentReport.html
